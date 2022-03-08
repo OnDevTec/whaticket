@@ -11,6 +11,10 @@ export function getBackendUrl() {
     return getConfig('REACT_APP_BACKEND_URL');
 }
 
+export function getPort() {
+    return getConfig('REACT_APP_PORT');
+}
+
 export function getHoursCloseTicketsAuto() {
     return getConfig('REACT_APP_HOURS_CLOSE_TICKETS_AUTO');
 }
